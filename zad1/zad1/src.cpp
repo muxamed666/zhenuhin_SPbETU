@@ -58,7 +58,7 @@ void posl_b()
 }
 
 
-void posl_ñ()
+void posl_c()
 {
 	int m = 0;
 	int k = 0;
@@ -92,7 +92,7 @@ int main(int argc, char** argv)
 	posl_b();
 
 	std::cout << std::endl << std::endl << "c) " << std::endl;
-	posl_ñ();
+	posl_c();
 
 	return 0;
 }
