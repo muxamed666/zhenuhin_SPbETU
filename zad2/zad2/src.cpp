@@ -22,7 +22,8 @@ int main(int argc, char** argv)
 {
 	long double sum = 0.0;
 
-	for (int i = 0; i < 100; i++)
+	//сумма членов ряда от 1 до 100
+	for (int i = 1; i <= 100; i++)
 	{
 		sum += i / fact(100 - i);
 	}
